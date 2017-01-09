@@ -1,0 +1,125 @@
+.our-team__form {
+  width: 840px;
+  min-height: 410px;
+  background-image: url(../../img/form-bg.png);
+  border-radius: 20px;
+  margin: 0 auto;
+
+  @extend %clearfix;
+
+}
+
+.form__left {
+  width: 55%;
+  min-height: 410px;
+  float: left;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.form__title {
+  color: #fff;
+  font: 64px/1.02 'als_malinaregular-cyrillic', Arial, sans-serif;
+  display: inline-block;
+  width: 340px;
+
+}
+
+.form__right {
+  width: 45%;
+  min-height: 410px;
+  float: right;
+  background-color: rgba(29, 29, 32, .84);
+  border-radius: 0 20px 20px 0;
+
+}
+
+.form__list {
+  padding: 70px 70px 85px 47px;
+  position: relative;
+
+}
+
+
+
+.input__style {
+  width: 100%;
+  color: #fff;
+  font: 16px Arial, Helvetica, sans-serif;
+  padding: 20px 0;
+  outline: none;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 20px;
+  opacity: 1;
+}
+
+.check-label {
+  display: block;
+  padding-top: 20px;
+
+  [type="checkbox"] {
+    display: inline-block;
+    margin-right: 12px;
+    cursor: pointer;
+  }
+
+  label {
+    color: #fff;
+    display: inline-block;
+    cursor: pointer;
+
+  }
+}
+
+.button__submit {
+  width: 98px;
+  height: 98px;
+  background-color: $yallow;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  position: absolute;
+  top: 100%;
+  margin-top: -58px;
+  left: 100%;
+  margin-left: -58px;
+  transition: background-color .3s;
+
+  &:hover {
+    background-color: #fb8902;
+  }
+
+  &:before {
+    content: "";
+    width: 23px;
+    height: 30px;
+    display: block;
+    background: #9d5125;
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+    left: 50%;
+    margin-left: -23px;
+
+  }
+
+  &:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border: 25px solid transparent;
+    border-left-color: #9d5125;
+    display: block;
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    left: 50%;
+  }
+}

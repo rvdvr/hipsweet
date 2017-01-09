@@ -1,0 +1,81 @@
+.container {
+  position: relative;
+}
+
+.why-tasty {
+  width: 100%;
+  min-height: 760px;
+  background: radial-gradient(at 85% 50%, #FEFFFF, #C8C8C8);
+  padding: 100px 10px 0 75px;
+  box-sizing: border-box;
+}
+
+.why-tasty__main {
+  max-width: 575px;
+  margin: 0 500px 0 0;
+}
+
+.why-tasty__title {
+  color: $blue;
+  font: 62px/1.32 'als_malinaregular-cyrillic', Arial, sans-serif;
+}
+
+.why-tasty__disc {
+  max-width: 415px;
+  color: #747474;
+  font: 15px/1.42 Arial, Helvetica, sans-serif;
+  margin: 0 0 40px 0;
+}
+
+.cards__list {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: inline-flex;
+}
+
+.cards__item {
+  margin: 0 35px 0 0;
+}
+
+.cards__item {
+  width: 150px;
+}
+
+
+.cards__top-icon {
+  position: relative;
+  height: 125px;
+  margin: 0 0 30px 0;
+  &:before {
+    content: "";
+    display: block;
+    background: #c5c5cb;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    bottom: 11px;
+    left: 11px;
+    z-index: 1;
+  }
+}
+
+.cards__icon-img {
+  position: absolute;
+  bottom: 22px;
+  left: 0;
+  z-index: 10;
+  max-width: 110px;
+  max-height: 100px;
+}
+
+.cards__disc-text {
+  color: #747474;
+  font: 16px 'als_malinaregular-cyrillic', Arial, sans-serif;
+}
+
+.why-tasty__man {
+  position: absolute;
+  right: 0;
+  bottom: -95px;
+}

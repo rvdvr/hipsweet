@@ -1,0 +1,271 @@
+.slider {
+  @extend %clearfix;
+  padding: 30px 0 0 0;
+  outline: none;
+}
+
+.block {
+  width: 100%;
+  position: relative;
+
+  @extend %clearfix;
+}
+
+.cupcake__left {
+  width: 15%;
+  float: left;
+  position: relative;
+}
+
+.cupcake__icon {
+  width: 105px;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  margin-left: -52px;
+  top: 60px;
+  cursor: pointer;
+
+  &:hover {
+    .icon {
+      background: $yallow;
+    }
+    .ingredients__dropdown {
+      right: 0;
+      opacity: 1;
+      left: 100%;
+    }
+  }
+}
+
+.ingredients__dropdown {
+  background: rgba(255, 255, 255, .9);
+	width: 380px;
+	border-radius: 21px;
+	position: absolute;
+	top: -50%;
+	margin-top: -25px;
+  left: -9999px;
+  margin-left: 25px;;
+	transition: opacity .5s;
+	z-index: 1000;
+  box-sizing: border-box;
+  padding: 30px 35px;
+  opacity: 0;
+  transition: opacity .5s;
+
+
+
+	&:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: -66px;
+    top: 0;
+    width: 68px;
+    height: 100%;
+	}
+
+  &:after {
+    content: "";
+    width: 0;
+  	height: 0;
+  	border: 13px solid transparent;
+  	border-right-color: #fff;
+  	border-left: 0;
+  	position: absolute;
+    top: 35%;
+    margin-top: -13px;
+    left: -13px;
+    opacity: .9;
+  }
+}
+
+
+.ingredients__dropdown-item {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 0 17px 0;
+
+  &:last-child {
+    margin: 0 0;
+  }
+}
+
+.dropdown-item__left {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+
+.dropdown-item__right {
+  width: 20%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: center;
+
+}
+
+
+
+// .ingredients__triangle {
+//   width: 0;
+// 	height: 0;
+// 	border: 13px solid transparent;
+// 	border-right-color: #fff;
+// 	border-left: 0;
+// 	position: absolute;
+//   top: 35%;
+//   margin-top: -13px;
+//   left: -13px;
+//   opacity: .9;
+// }
+
+.dropdown-item__icon {
+  height: 25px;
+  width: 25px;
+  margin: 0 13px 0 0;
+}
+
+
+.icon__ingredients{
+  display: inline-block;
+}
+
+
+.icon__disc {
+  color: #fff;
+  font: 14px Arial, Helvetica, sans-serif;
+}
+
+
+.cupcake__s-life {
+  width: 135px;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  margin-left: -67px;
+  top: 330px;
+}
+
+.s-life__top {
+  color: rgba(255, 255, 255, .28);
+  font: 13px Arial, Helvetica, sans-serif;
+  display: inline-block;
+}
+
+.s-life__down {
+  margin: -10px 0 0 0;
+  color: #fff;
+  font: 24px 'als_malinaregular-cyrillic', Arial, sans-serif;
+  display: inline-block;
+}
+
+.cupcake__right {
+  width: 85%;
+  float: right;
+}
+
+.cupcake__image {
+  width: 45%;
+  float: left;
+  text-align: center;
+}
+
+.cupcake__image {
+  display: inline-block;
+}
+
+.cupcake__text {
+  width: 55%;
+  float: right;
+  padding: 0 0 0 70px;
+  box-sizing: border-box;
+}
+
+.cupcake__title {
+  color: #fff;
+  font: 62px/1.2 'als_malinaregular', Arial, sans-serif;
+}
+
+.cupcake__disc {
+  p {
+    color: #fff;
+    font: 15px/1.42 Arial, Helvetica, sans-serif;
+  }
+}
+
+.price-btn__price {
+  color: #fff;
+  font: 62px 'als_malinaregular-number', Arial, sans-serif;
+  vertical-align: middle;
+}
+
+.price-btn__btn {
+  color: #a4151c;
+  font: Bold 14px Arial, Helvetica, sans-serif;
+  background: $yallow;
+  border-radius: 50px;
+  padding: 13px 20px;
+  display: inline-block;;
+  text-align: center;
+  margin: 0 0 0 30px;
+  transition: background-color .3s;
+
+  &:hover {
+    background-color: #fb8902;
+  }
+}
+
+.cupcake__word {
+  color: #fff;
+  font: 150px 'als_malinaregular-cyrillic', Arial, sans-serif;
+  text-transform: uppercase;
+  opacity: .1;
+  position: absolute;
+  top: 130px;
+  left: 40px;
+}
+
+.slick-list {
+  margin-bottom: 20px;
+}
+
+.slick-dots {
+  text-align: center;
+
+  .slick-active  {
+    background: $yallow;
+  }
+
+  li {
+
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 30px;
+    transition: width .2s, height .2s;
+
+
+    &:hover {
+      width: 13px;
+      height: 13px;
+    }
+
+
+
+    button {
+      display: none;
+    }
+  }
+}

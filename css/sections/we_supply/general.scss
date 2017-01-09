@@ -1,0 +1,92 @@
+.we-supply {
+  background-image: url(../../img/pattern.png);
+
+  .container {
+    padding: 90px 30px;
+  }
+}
+
+.we-supply__title {
+  color: $blue;
+  font: 62px/1.22 'als_malinaregular-cyrillic', Arial, sans-serif;
+  text-align: center;
+  margin: 0 0 15px 0;
+}
+
+.we-supply__title-disc {
+  text-align: center;
+  width: 100%;
+  margin: 0 0 60px 0;
+
+  p {
+    color: #883213;
+    font: 16px/1.42 Arial, Helvetica sans-serif;
+    width: 790px;
+    display: inline-block;
+    margin: 0 0;
+  }
+}
+
+.production__list {
+  width: 100%;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.production__item {
+  width: 225px;
+  margin: 0 0 50px 0;
+}
+
+.production__icon {
+  height: 200px;
+  position: relative;
+  margin: 0 0 20px 0;
+  &:before {
+    content: "";
+    display: block;
+    background-color: #e49401;
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    opacity: .3;
+    position: absolute;
+    left: 50%;
+    margin-left: -90px;
+    bottom: 0;
+  }
+}
+
+
+.production__icon-img {
+  max-width: 200px;
+  height: 160px;
+  position: absolute;
+  left: 50%;
+  margin-left: -87px;
+  bottom: 15px;
+}
+
+.production__icon-img_big {
+  height: 228px;
+}
+
+.production__title {
+  color: #393939;
+  font: 32px 'als_malinaregular-cyrillic', Arial, sans-serif;
+  margin: 0 0 5px 0;
+  text-align: center;
+}
+
+.production__disc {
+  color: #ab594a;
+  font: 14px/1.42 Arial, Helvetica, sans-serif;
+  text-align: center;
+  p {
+    margin: 0 0;
+  }
+}

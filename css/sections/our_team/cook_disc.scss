@@ -1,0 +1,52 @@
+.cook__disc {
+  margin-bottom: 150px;
+  position: relative;
+
+}
+
+.cook__man {
+  @extend %clearfix;
+  position: relative;
+}
+
+
+.cook__disc-item {
+  display: none;
+}
+
+.cook__disc-item_active {
+  display: block;
+}
+
+.cook__disc-left {
+  width: 275px;
+  float: left;
+  color: #747474;
+  font: Italic 14px/1.72 Arial, Helvetica, sans-serif;
+
+}
+
+.cook__disc-right {
+  width: 350px;
+  float: right;
+  color: #747474;
+  font: Italic 14px/1.72 Arial, Helvetica, sans-serif;
+}
+
+.cook__disc-photo {
+  position: absolute;
+  left: 50%;
+  margin-left: -320px;
+  bottom: -156px;
+
+  &:before {
+    content: "";
+    display: block;
+    width: 55px;
+    height: 45px;
+    background-image: url(../../img/cav.png);
+    position: absolute;
+    top: 2px;
+    left: 25%;
+  }
+}

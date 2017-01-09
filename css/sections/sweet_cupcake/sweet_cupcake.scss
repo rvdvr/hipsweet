@@ -1,0 +1,15 @@
+.sweet_cupcake {
+  width: 100%;
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#de3e41+0,8f0222+100,a3151c+100 */
+  background: #de3e41; /* Old browsers */
+  background: -moz-radial-gradient(left, ellipse cover,  #de3e41 0%, #8f0222 100%, #a3151c 100%); /* FF3.6-15 */
+  background: -webkit-radial-gradient(left, ellipse cover,  #de3e41 0%,#8f0222 100%,#a3151c 100%); /* Chrome10-25,Safari5.1-6 */
+  background: radial-gradient(ellipse at left,  #de3e41 0%,#8f0222 100%,#a3151c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de3e41', endColorstr='#a3151c',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  height: rem(760px);
+}
+
+// .wrapper {
+//   background: #000;
+// }

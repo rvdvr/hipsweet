@@ -1,0 +1,54 @@
+.footer__social {
+  width: 270px;
+  display: inline-block;
+}
+
+
+.social__link {
+  width: 30px;
+  height: 30px;
+  background: url("../../img/social-sprite.png") 0 0 no-repeat;
+  display: inline-block;
+  margin-left: 20px;
+
+}
+
+.social__link-fb {
+  background-position: 19px 0;
+
+  &:hover {
+    background-position: 19px -42px;
+  }
+}
+
+.social__link-inst {
+  background-position: -41px 1px;
+
+  &:hover {
+    background-position: -41px -41px;
+  }
+}
+
+.social__link-ok {
+  background-position: -101px 2px;
+
+  &:hover {
+    background-position: -101px -40px;
+  }
+}
+
+.social__link-tw {
+  background-position: -160px 2px;
+
+  &:hover {
+    background-position: -160px -40px;
+  }
+}
+
+.social__link-vk {
+  background-position: -213px 0;
+
+  &:hover {
+    background-position: -213px -42px;
+  }
+}

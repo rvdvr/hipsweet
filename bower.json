@@ -1,0 +1,20 @@
+{
+  "name": "landing",
+  "description": "first landing project",
+  "main": "gulpfile.js",
+  "authors": [
+    "Andrey"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "landing"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

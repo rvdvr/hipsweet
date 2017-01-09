@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'als_malinaregular';
+    src: url('../../fonts/malina-webfont.woff2') format('woff2'),
+         url('../../fonts/malina-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'als_malinaregular-cyrillic';
+    src: url('../../fonts/cyrillic/malina-webfont.woff2') format('woff2'),
+         url('../../fonts/cyrillic/malina-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'als_malinaregular-number';
+    src: url('../../fonts/number/malina-webfont.woff2') format('woff2'),
+         url('../../fonts/number/malina-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

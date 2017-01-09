@@ -1,0 +1,31 @@
+// vars
+$yallow: #fca211;
+$blue: #2b2f5f;
+// $black: #414141;
+// $grey: #bebebe;
+// $red: #e85f61;
+
+// layout
+@import "misc/fonts";
+@import "misc/mixins";
+@import "misc/normalize";
+@import "misc/adjustment";
+@import "plugins/font-awesome";
+
+// styles
+@import "sections/sweet_cupcake/header";
+@import "sections/sweet_cupcake/sweet_cupcake";
+@import "sections/sweet_cupcake/slider";
+@import "sections/why_tasty/why_tasty";
+@import "sections/we_supply/general";
+@import "sections/our_team/our_team_general";
+@import "sections/our_team/our_team_header";
+@import "sections/our_team/cook_disc";
+@import "sections/our_team/form";
+@import "sections/questions/main-questions";
+@import "sections/footer/main-footer";
+@import "sections/footer/social-footer";
+
+
+//media
+//@import "adaptiv/media";
